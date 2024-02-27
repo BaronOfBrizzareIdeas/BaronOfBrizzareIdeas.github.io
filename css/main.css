@@ -406,7 +406,7 @@ nav ul.show li {
 }
 
 .courses h4 {
-    width: 400px;
+    width: auto;
     height: 100px;
     background-color: purple;
     color: white;
