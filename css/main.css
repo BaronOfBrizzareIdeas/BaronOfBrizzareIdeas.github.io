@@ -131,17 +131,12 @@ header {
 header img {
     height: 70px;
     width: 70px;
-    transition: transform 0.3s ease-in-out;
 }
 
 header .div {
     display: flex;
     justify-content: left;
     padding: auto;
-}
-
-header:hover img {
-    transform: scale(1.1);
 }
 
 nav {
@@ -213,7 +208,7 @@ nav ul.show li {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     /* Hide the navigation by default on smaller screens */
     nav ul {
         display: none;
